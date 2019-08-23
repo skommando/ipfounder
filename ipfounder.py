@@ -185,11 +185,11 @@ def _scan_aizhan():
 
     url = 'https://ping.aizhan.com/api/ping?callback=flightHandler'
     headers = {
-        'Cookie': 'Hm_lvt_b37205f3f69d03924c5447d020c09192=1563430565; Hm_lpvt_b37205f3f69d03924c5447d020c09192=1563430626; _csrf=ba88576d8a1fdcde1fa66873df64a7fefbdf58145974ba2d4830a04a8afe1ab7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22U0su7Xzu3zTItubiSzsomlM1y1AJNUiW%22%3B%7D; allSites=www.kye-erp.com%2C0'
+        'Cookie': 'Hm_lvt_b37205f3f69d03924c5447d020c09192=1563430565; Hm_lpvt_b37205f3f69d03924c5447d020c09192=1563430626; _csrf=ba88576d8a1fdcde1fa66873df64a7fefbdf58145974ba2d4830a04a8afe1ab7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22U0su7Xzu3zTItubiSzsomlM1y1AJNUiW%22%3B%7D; allSites=amm907.com%2C0'
     }
     params = {
         "type": "ping",
-        "domain": "www.kye-erp.com",
+        "domain": "amm907.com",
         "_csrf": "c2djR2lFWXQmVxAyXh0jAUAdNw4dMDsdIB0QKAQpFEUKViINJxAwIw=="
     }
     resp = requests.post(url, data=params, headers=headers)
